@@ -1,0 +1,10 @@
+﻿@model ProductsListViewModel
+<h1>List</h1>
+@foreach(var p in Model.Products)
+{
+    <h3>@p.Name</h3>
+    <h3>@p.Description</h3>
+    <h4>@p.Price.ToString("c")</h4>
+}
+<div page-model="@Model.PagingInfo" page-action="List"></div>
+
