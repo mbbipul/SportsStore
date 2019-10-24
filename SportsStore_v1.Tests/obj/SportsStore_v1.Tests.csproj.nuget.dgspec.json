@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj": {}
+    "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj": {}
   },
   "projects": {
-    "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj": {
+    "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj",
+        "projectUniqueName": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj",
         "projectName": "SportsStore_v1.Tests",
-        "projectPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj",
+        "projectPath": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\obj\\",
+        "outputPath": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
-                "projectPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj"
+              "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
+                "projectPath": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
+    "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
+        "projectUniqueName": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
         "projectName": "SportsStore_v1",
-        "projectPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
+        "projectPath": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\obj\\",
+        "outputPath": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

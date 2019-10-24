@@ -25,6 +25,7 @@ namespace SportsStore_v1.Infrastructure
         public ViewContext ViewContext { get; set; }
         public PagingInfo PageModel { get; set; }
         public string PageAction { get; set; }
+        
         public bool PageClassesEnabled { get; set; } = false;
         public string PageClass { get; set; }
         public string PageClassNormal { get; set; }
@@ -45,12 +46,12 @@ namespace SportsStore_v1.Infrastructure
                 PageUrlValues["productPage"] = i;
                 tag.Attributes["href"] = urlHelper.Action(PageAction, PageUrlValues);
 
-                // if (PageClassesEnabled)
-                // {
-                //     tag.AddCssClass(PageClass);
-                //     tag.AddCssClass(i == PageModel.CurrentPage
-                //     ? PageClassSelected : PageClassNormal);
-                // }
+                if (PageClassesEnabled)
+                {
+                    tag.AddCssClass(PageClass);
+                    tag.AddCssClass(i == PageModel.CurrentPage
+                    ? PageClassSelected : PageClassNormal);
+                }
                 tag.InnerHtml.Append(i.ToString());
                 result.InnerHtml.AppendHtml(tag);
             }

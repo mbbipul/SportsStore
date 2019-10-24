@@ -31,7 +31,6 @@ namespace SportsStore_v1
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration["Data:SportStoreProducts:ConnectionString"]));
             services.AddTransient<IProductRepository, EFProductRepository>();
-
            
         }
 
@@ -44,12 +43,45 @@ namespace SportsStore_v1
             }
 
             app.UseRouting();
-
+            app.UseStaticFiles();
             app.UseEndpoints(endpoints =>
             {
+                // endpoints.MapControllerRoute(
+                //     name: "default",
+                //     pattern: "{controller=Product}/{action=List}/{id?}");
+
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Product}/{action=List}/{id?}");
+                    name: null,
+                    pattern: "{category}/Page{productPage:int}",
+                    defaults: new { controller = "Product", action = "List" }
+                );
+                endpoints.MapControllerRoute(
+                    name: null,
+                    pattern: "Page{productPage:int}",
+                    defaults: new { controller = "Product",action = "List", productPage = 1 }
+                );
+                endpoints.MapControllerRoute(
+                    name: null,
+                    pattern: "{category}",
+                    defaults: new { controller = "Product",
+                        action = "List", productPage = 1 }
+                );
+                endpoints.MapControllerRoute(
+                    name: null,
+                    pattern: "",
+                    defaults: new { controller = "Product", action = "List",
+                        productPage = 1 });
+                
+                endpoints.MapControllerRoute(
+                    name : null,
+                    pattern : "map",
+                    defaults : new { controller = "Product"
+                    ,action = "Map"}
+                );
+
+                endpoints.MapControllerRoute(name: null, pattern: "{controller}/{action}/{id?}");
+                
+                
             });
             SeedData.EnsurePopulated(app);
 

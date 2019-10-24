@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {}
+    "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {}
   },
   "projects": {
-    "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
+    "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
+        "projectUniqueName": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
         "projectName": "SportsStore_v1",
-        "projectPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
+        "projectPath": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\obj\\",
+        "outputPath": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

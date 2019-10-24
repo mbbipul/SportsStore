@@ -119,3 +119,4 @@ D:\AspDotnet\SportsStoreV1\SportsStore_v1.Tests\bin\Debug\netcoreapp3.0\SportsSt
 D:\AspDotnet\SportsStoreV1\SportsStore_v1.Tests\bin\Debug\netcoreapp3.0\SportsStore_v1.pdb
 d:\AspDotNet\SportsStoreV1\SportsStore_v1.Tests\bin\Debug\netcoreapp3.0\Castle.Core.dll
 d:\AspDotNet\SportsStoreV1\SportsStore_v1.Tests\bin\Debug\netcoreapp3.0\Moq.dll
+D:\AspDotNet\SportsStoreV1\SportsStore_v1.Tests\bin\Debug\netcoreapp3.0\bower.json

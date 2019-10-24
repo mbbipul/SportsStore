@@ -14,9 +14,10 @@ namespace SportsStore_v1.Controllers
         {
             repository = rep;
         }
-        public ViewResult List(int productPage = 1) => View(
+        public ViewResult List(string category,int productPage = 1) => View(
             new ProductsListViewModel {
                 Products = repository.Products
+                    .Where(p => category == null || p.Category == category)
                     .OrderBy(p => p.ProductId)
                     .Skip((productPage - 1) * PageSize)
                     .Take(PageSize),
@@ -24,8 +25,13 @@ namespace SportsStore_v1.Controllers
                     CurrentPage = productPage,
                     ItemPerPage = PageSize,
                     TotalItems = repository.Products.Count()
-                }
+                },
+                CurrentCategory = category
             });
+
+        public ViewResult Map(){
+            return View();
+        }
             
     }
 

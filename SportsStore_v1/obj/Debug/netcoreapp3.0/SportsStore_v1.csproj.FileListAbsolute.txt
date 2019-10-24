@@ -98,3 +98,7 @@ D:\AspDotnet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\SportsStore_v1
 D:\AspDotnet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\SportsStore_v1.csproj.CopyComplete
 D:\AspDotnet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\SportsStore_v1.dll
 D:\AspDotnet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\SportsStore_v1.pdb
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\bin\Debug\netcoreapp3.0\bower.json
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Shared\ProductSummary.cshtml.g.cs
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Product\Map.cshtml.g.cs

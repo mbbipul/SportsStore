@@ -3,11 +3,23 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet"
+        asp-href-include="/lib/bootstrap/dist/**/*.min.css"
+        asp-href-exclude="**/*-reboot*,**/*-grid*" />
     <title>Shopstore</title>
 </head>
 <body>
-    <div>
-        @RenderBody()
+
+    <nav class="navbar navbar-dark bg-dark" role="navigation">
+        <a class="navbar-brand" href="#">SPORTS STORE</a>
+    </nav>
+    <div class="row m-1 p-1">
+        <div id="categories" class="col-3">
+             @await Component.InvokeAsync("NavigationMenu")
+        </div>
+        <div class="col-9">
+            @RenderBody()
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,15 @@
+{
+  "name": "SportsStore_v1",
+  "homepage": "https://github.com/mbbipul/SportsStore",
+  "authors": [
+    "mbbipul <mbbipulmandol.cse3.bu@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "jquery-validation": "^1.19.1"
+  }
+}
