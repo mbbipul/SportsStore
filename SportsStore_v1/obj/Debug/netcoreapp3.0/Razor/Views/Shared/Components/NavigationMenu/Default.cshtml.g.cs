@@ -26,8 +26,15 @@ using SportsStore_v1.Models.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "D:\AspDotNet\SportsStoreV1\SportsStore_v1\Views\_ViewImports.cshtml"
+using SportsStore_v1.Infrastructure;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ed3ab5b5da7b04333a894e066912901bd5ec1edf", @"/Views/Shared/Components/NavigationMenu/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1a9e16a7622e2fc1bd03d59e480c99719c3df0ba", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dc72a033afaf618bb6ec4265bc64eaef07a10dda", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_NavigationMenu_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<string>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "List", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -59,7 +66,7 @@ using SportsStore_v1.Models.ViewModels;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed3ab5b5da7b04333a894e066912901bd5ec1edf4428", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed3ab5b5da7b04333a894e066912901bd5ec1edf4614", async() => {
                 WriteLiteral("\r\n    Home\r\n");
             }
             );
@@ -102,7 +109,7 @@ AddHtmlAttributeValue(" \r\n    ", 53, ViewBag.Home == true ? "btn-primary": "bt
 #line hidden
 #nullable disable
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed3ab5b5da7b04333a894e066912901bd5ec1edf7235", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed3ab5b5da7b04333a894e066912901bd5ec1edf7421", async() => {
                 WriteLiteral("\r\n        ");
 #nullable restore
 #line 18 "D:\AspDotNet\SportsStoreV1\SportsStore_v1\Views\Shared\Components\NavigationMenu\Default.cshtml"
