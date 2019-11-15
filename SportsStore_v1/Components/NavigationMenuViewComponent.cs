@@ -18,7 +18,8 @@ namespace SportsStore_v1.Components {
             return View(repository.Products
                 .Select(x => x.Category)
                 .Distinct()
-                .OrderBy(x => x));
+                .OrderBy(x => x)
+            );
         }
     }
 }

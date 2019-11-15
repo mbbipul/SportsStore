@@ -28,10 +28,6 @@ namespace SportsStore_v1.Controllers
                 },
                 CurrentCategory = category
             });
-
-        public ViewResult Map(){
-            return View();
-        }
             
     }
 

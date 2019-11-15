@@ -101,4 +101,5 @@ D:\AspDotnet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\SportsStore_v1
 D:\AspDotNet\SportsStoreV1\SportsStore_v1\bin\Debug\netcoreapp3.0\bower.json
 D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Shared\ProductSummary.cshtml.g.cs
 D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
-D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Product\Map.cshtml.g.cs
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\AspDotNet\SportsStoreV1\sportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Cart\Index.cshtml.g.cs
