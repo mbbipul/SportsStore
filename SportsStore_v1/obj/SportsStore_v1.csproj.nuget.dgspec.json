@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AspDotNet\\SportsStoreV1\\sportsStore_v1\\SportsStore_v1.csproj": {}
+    "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {}
   },
   "projects": {
-    "D:\\AspDotNet\\SportsStoreV1\\sportsStore_v1\\SportsStore_v1.csproj": {
+    "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AspDotNet\\SportsStoreV1\\sportsStore_v1\\SportsStore_v1.csproj",
+        "projectUniqueName": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
         "projectName": "SportsStore_v1",
-        "projectPath": "D:\\AspDotNet\\SportsStoreV1\\sportsStore_v1\\SportsStore_v1.csproj",
+        "projectPath": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\AspDotNet\\SportsStoreV1\\sportsStore_v1\\obj\\",
+        "outputPath": "D:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,6 +56,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "NEST.JsonNetSerializer": {
+              "target": "Package",
+              "version": "[7.4.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

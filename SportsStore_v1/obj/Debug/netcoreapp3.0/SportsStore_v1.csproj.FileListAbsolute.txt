@@ -103,3 +103,10 @@ D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Sh
 D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
 D:\AspDotNet\SportsStoreV1\SportsStore_v1\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
 D:\AspDotNet\SportsStoreV1\sportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Cart\Index.cshtml.g.cs
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\bin\Debug\netcoreapp3.0\Elasticsearch.Net.dll
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\bin\Debug\netcoreapp3.0\Nest.dll
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\bin\Debug\netcoreapp3.0\Nest.JsonNetSerializer.dll
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\bin\Debug\netcoreapp3.0\libman.json
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Components\CartSummary\Default.cshtml.g.cs
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Order\Checkout.cshtml.g.cs
+D:\AspDotNet\SportsStoreV1\SportsStore_v1\obj\Debug\netcoreapp3.0\Razor\Views\Order\Completed.cshtml.g.cs

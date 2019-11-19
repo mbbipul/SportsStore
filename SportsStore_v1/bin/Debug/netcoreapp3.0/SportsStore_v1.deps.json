@@ -27,6 +27,7 @@
           "Microsoft.EntityFrameworkCore.Design": "3.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "3.0.0",
+          "NEST.JsonNetSerializer": "7.4.1",
           "Newtonsoft.Json": "12.0.3",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
@@ -158,7 +159,7 @@
           "mscorlib": "4.0.0.0",
           "netstandard": "2.1.0.0",
           "System.AppContext": "4.2.1.0",
-          "System.Buffers": "4.0.2.0",
+          "System.Buffers.Reference": "4.0.2.0",
           "System.Collections.Concurrent.Reference": "4.0.14.0",
           "System.Collections.Reference": "4.1.1.0",
           "System.Collections.Immutable.Reference": "1.2.4.0",
@@ -316,6 +317,23 @@
         },
         "compile": {
           "SportsStore_v1.dll": {}
+        }
+      },
+      "Elasticsearch.Net/7.4.1": {
+        "dependencies": {
+          "System.Buffers": "4.5.0",
+          "System.Diagnostics.DiagnosticSource": "4.6.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Elasticsearch.Net.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.4.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Elasticsearch.Net.dll": {}
         }
       },
       "Microsoft.CSharp/4.6.0": {},
@@ -509,6 +527,35 @@
           "System.Security.Principal.Windows": "4.5.0"
         }
       },
+      "NEST/7.4.1": {
+        "dependencies": {
+          "Elasticsearch.Net": "7.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.4.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Nest.dll": {}
+        }
+      },
+      "NEST.JsonNetSerializer/7.4.1": {
+        "dependencies": {
+          "NEST": "7.4.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.JsonNetSerializer.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.4.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Nest.JsonNetSerializer.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.3": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -560,6 +607,7 @@
           }
         }
       },
+      "System.Buffers/4.5.0": {},
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -1875,7 +1923,7 @@
         },
         "compileOnly": true
       },
-      "System.Buffers/4.0.2.0": {
+      "System.Buffers.Reference/4.0.2.0": {
         "compile": {
           "System.Buffers.dll": {}
         },
@@ -2795,6 +2843,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Elasticsearch.Net/7.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A73y3NooG0xS11O6a2bUwYv2TUFkHafbk7Z3C9PwyKmlIq9mBY4H4xtPILQHKcUPI/44bvts1dc4u8talFDy8g==",
+      "path": "elasticsearch.net/7.4.1",
+      "hashPath": "elasticsearch.net.7.4.1.nupkg.sha512"
+    },
     "Microsoft.CSharp/4.6.0": {
       "type": "package",
       "serviceable": true,
@@ -2963,6 +3018,20 @@
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
     },
+    "NEST/7.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rm3L79opLCLT7Ra72ExEbw7Y4AhFIf5OrtpBcMQnkmjT3haYBFnchrv/K6uKh8ES6aAYGg7ndnzIeUmuqAk66g==",
+      "path": "nest/7.4.1",
+      "hashPath": "nest.7.4.1.nupkg.sha512"
+    },
+    "NEST.JsonNetSerializer/7.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RgwUW0vsAfVzGUwDFk6nte9me7Ef3tL0wwrOcQEUmHSBi4GUHSsHwIH8S+rDyORgEhH/RqWgqidWsl9G85YwKw==",
+      "path": "nest.jsonnetserializer/7.4.1",
+      "hashPath": "nest.jsonnetserializer.7.4.1.nupkg.sha512"
+    },
     "Newtonsoft.Json/12.0.3": {
       "type": "package",
       "serviceable": true,
@@ -3004,6 +3073,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.Buffers/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
+      "path": "system.buffers/4.5.0",
+      "hashPath": "system.buffers.4.5.0.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",
@@ -4054,7 +4130,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Buffers/4.0.2.0": {
+    "System.Buffers.Reference/4.0.2.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

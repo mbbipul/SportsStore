@@ -17,7 +17,7 @@ namespace SportsStore_v1.Models
             });
 
             } else {
-            line.Quantity += quantity;
+                line.Quantity += quantity;
             }
         }
 

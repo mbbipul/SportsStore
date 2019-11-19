@@ -6,12 +6,19 @@
     <link rel="stylesheet"
         asp-href-include="/lib/bootstrap/dist/**/*.min.css"
         asp-href-exclude="**/*-reboot*,**/*-grid*" />
+     <link rel="stylesheet" asp-href-include="/lib/css/*.css" />
+
     <title>Shopstore</title>
 </head>
 <body>
 
     <nav class="navbar navbar-dark bg-dark" role="navigation">
-        <a class="navbar-brand" href="#">SPORTS STORE</a>
+        <a class="navbar-brand" href="/">SPORTS STORE</a>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                @await Component.InvokeAsync("CartSummary")
+            </li>
+        </ul>
     </nav>
     <div class="row m-1 p-1">
         <div id="categories" class="col-3">
