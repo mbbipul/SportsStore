@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
 namespace SportsStore_v1.Models
@@ -32,7 +34,9 @@ namespace SportsStore_v1.Models
     }
 
     public class CartLine{
-        public string CartLineID {get;set;}
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public string CartLineID {get ; set;}
         public Product Product {get ; set;}
         public int Quantity {get;set;}
     }
