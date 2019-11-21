@@ -5,6 +5,9 @@
   "libraries": [
     {
       "library": "font-awesome@5.11.2"
+    },
+    {
+      "library": "jquery-validation-unobtrusive@3.2.11"
     }
   ]
 }

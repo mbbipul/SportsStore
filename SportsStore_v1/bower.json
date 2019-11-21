@@ -11,6 +11,7 @@
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "jquery-validation": "^1.19.1",
-    "fontawesome": "4.7.0"
+    "fontawesome": "4.7.0",
+    "jquery-validation-unobtrusive" :"latest"
   }
 }
