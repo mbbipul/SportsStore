@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj": {}
+    "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj": {}
   },
   "projects": {
-    "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj": {
+    "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj",
+        "projectUniqueName": "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj",
         "projectName": "SportsStore_v1.Tests",
-        "projectPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj",
+        "projectPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1.Tests\\SportsStore_v1.Tests.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1.Tests\\obj\\",
+        "outputPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
-                "projectPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj"
+              "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
+                "projectPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj"
               }
             }
           }
@@ -81,18 +81,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
+    "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
+        "projectUniqueName": "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
         "projectName": "SportsStore_v1",
-        "projectPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
+        "projectPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1\\SportsStore_v1.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStore_v1\\obj\\",
+        "outputPath": "d:\\AspDotNet\\SportsStoreV1\\SportsStoreV1\\SportsStore_v1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -102,14 +102,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -120,13 +120,13 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.1.0-preview3.19554.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -136,7 +136,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.1.0-preview3.19554.8, )"
             },
             "NEST.JsonNetSerializer": {
               "target": "Package",
@@ -165,7 +165,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
         }
       }
     }
